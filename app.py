@@ -6,6 +6,7 @@ import tensorflow as tf
 from utils import preprocess_image
 
 app = Flask(__name__)
+port = int(os.environ.get("PORT", 5000))
 
 model = tf.keras.models.load_model("best_model_resnet_like.keras")
 
@@ -33,4 +34,4 @@ def predict():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=port)
