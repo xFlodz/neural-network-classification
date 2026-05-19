@@ -38,8 +38,8 @@
 
 ## 🔗 Развёрнутые приложения
 
-- 🎯 **Streamlit-интерфейс**: [https://chicken-cow-horse-sheep-classification.streamlit.app/](https://neural-network-classification-b9igzm9nlckywwgmzg5nn8.streamlit.app/)
-- ⚡ **API сервер (Flask)**: [https://chicken-cow-horse-sheep-classification.onrender.com/docs](https://neural-network-classification.onrender.com)
+- 🎯 **Streamlit-интерфейс**: https://neural-network-classification-b9igzm9nlckywwgmzg5nn8.streamlit.app/
+- ⚡ **API сервер (Flask)**: https://neural-network-classification.onrender.com
 
 ---
 
