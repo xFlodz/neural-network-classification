@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import numpy as np
 import tensorflow as tf
+import os
 
 
 from utils import preprocess_image
